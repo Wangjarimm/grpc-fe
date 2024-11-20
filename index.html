@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD GraphQL Frontend</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD GraphQL Frontend</h1>
+        
+        <!-- Form for Create -->
+        <div class="form-container">
+            <h2>Create Item</h2>
+            <form id="createForm">
+                <label for="createDeskripsiItem">Deskripsi Item</label>
+                <input type="text" id="createDeskripsiItem" required>
+                <label for="createHargaBeli">Harga Beli</label>
+                <input type="text" id="createHargaBeli" required>
+                <label for="createStok">Stok</label>
+                <input type="number" id="createStok" required>
+                <button type="submit">Create</button>
+            </form>
+            <!-- Notification div -->
+            <div id="notification" style="display: none; color: green; margin-top: 10px;"></div>
+        </div>
+
+        <!-- Form for Update -->
+        <div class="form-container">
+            <h2>Update Item</h2>
+            <form id="updateForm">
+                <label for="updateId">ID</label>
+                <input type="number" id="updateId" required>
+                <label for="updateDeskripsiItem">Deskripsi Item</label>
+                <input type="text" id="updateDeskripsiItem" required>
+                <label for="updateHargaBeli">Harga Beli</label>
+                <input type="text" id="updateHargaBeli" required>
+                <label for="updateStok">Stok</label>
+                <input type="number" id="updateStok" required>
+                <button type="submit">Update</button>
+            </form>
+        </div>
+
+        <!-- Section for Get by ID and Delete by ID -->
+        <div class="form-container">
+            <h2>Get or Delete Item by ID</h2>
+            <form id="getByIdForm">
+                <label for="searchId">Enter ID</label>
+                <input type="number" id="searchId" required>
+                <button type="button" id="getByIdButton">Get by ID</button>
+                <button type="button" id="deleteByIdButton">Delete by ID</button>
+            </form>
+            <div id="itemDetails"></div>
+        </div>
+
+        <!-- List of Items
+        <div class="list-container">
+            <h2>List of Items</h2>
+            <ul id="itemList"></ul>
+        </div> -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+/* General Reset */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Form container */
+.form-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+}
+
+/* Item details */
+#itemDetails {
+    margin-top: 10px;
+    padding: 10px;
+    background: #eaf7ff;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+    display: none;
+    font-size: 14px;
+}
+
+
+h1, h2 {
+    text-align: center;
+    color: #007BFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Buttons */
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Item list */
+.list-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list-container ul li {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* .list-container {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+li button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    background: #e74c3c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+li button:hover {
+    background: #c0392b;
+}
+
+
+/* Item details */
+#itemDetails {
+    margin-top: 10px;
+    padding: 10px;
+    background: #eaf7ff;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+    display: none;
+    font-size: 14px;
+}
